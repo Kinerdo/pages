@@ -1,4 +1,0 @@
-
-cleasr
-clear
-exit]

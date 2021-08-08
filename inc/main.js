@@ -20,8 +20,8 @@ fetch("https://stoicquotesapi.com/v1/api/quotes/random")
   .then(function (data) {
     // This is the JSON from our response
     const { body, author } = data;
-    console.log(body);
-    console.log(author);
+    // console.log(body);
+    // console.log(author);
     document.getElementById("body-quote").textContent = body;
     document.getElementById("author").textContent = author;
   })

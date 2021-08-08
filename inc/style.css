@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.bg-primary {
+  background-color: #313131 !important;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+
 .text {
   font-family: "poppins-bold", sans-serif !important;
   font-size: 6.3rem;
